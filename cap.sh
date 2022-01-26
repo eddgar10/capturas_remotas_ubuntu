@@ -29,12 +29,5 @@ do
   echo "***************"
   echo
 done
-#PENDIENTE
-#6- una vez finalizado el script se selecciona todo el directorio para copiar su contenido a una nueva carpeta y transferir por SCP, sugerencia sin caracteres:
-	#mkdir capturas
-	#cp -r /directodio_donde_estan_las_imagenes/ /usuario/capturas
-	#dar permisos sudo chmod 777 /capturas/* <- sino no dejara copiar por scp
-	#comprimir carpeta: gzip -9 capturas
-	#scp usuario_donde_esta_e_archivo_o_carpeta_a_copiar@direccion_ip:/el/directorio/archivo.x /directorio/destino de la pc donde se ejecuta el comando
-
-
+#6- una vez finalizado el script se selecciona todo el directorio para copiar su contenido por SCP
+	#scp -r usuario_remoto@xxxx.xxxx.xxxx.xxxx:/home/usuario/carpeta_contenedora /home/usuario_local/carpeta_destino
