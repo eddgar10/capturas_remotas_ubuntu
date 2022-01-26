@@ -13,6 +13,6 @@
 ###### `./cap.sh`
 
 # NOTA
-1 gnome-caputre envia la imagen a la carpeta Imagenes/Pictures segun sea el caso
+1 gnome-screenshot envia la imagen a la carpeta Imagenes/Pictures segun sea el caso
 
-2 si no existe dicha carpeta sera enviado a raiz "/usuario " donde se esta ejecutando
+2 si no existe dicha carpeta sera enviado a raiz "/usuario " donde se esta ejecutando la sesion SSH
